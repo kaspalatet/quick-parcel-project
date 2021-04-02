@@ -1,0 +1,11 @@
+---
+application:
+  name: "quick-parcel-project"
+  project: "Test"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-quick-parcel-project"
+  routes:
+  - application_name: "quick-parcel-project"
+    paths:
+    - "/*"
